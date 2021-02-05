@@ -30,6 +30,7 @@ class Functional_Arithmetic:
     def __init__(self, main_window):
         self.main_window = main_window
         pass
+        #asdasdasdsadsad
 
     def Cutout_image(self, x0, y0, mode):
         # 0:由鼠标唤起
