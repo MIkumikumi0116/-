@@ -152,7 +152,7 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QLable_File_Dragable" name="Image_Lable">
+         <widget class="QLabel_File_Dragable" name="Image_label">
           <property name="minimumSize">
            <size>
             <width>1</width>
@@ -246,12 +246,12 @@
          </spacer>
         </item>
         <item>
-         <widget class="QLabel" name="Color_Preview_Lable">
+         <widget class="QLabel" name="Color_Preview_label">
           <property name="text">
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>res/Transparent_Lable.png</pixmap>
+           <pixmap>res/Transparent_label.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -269,7 +269,7 @@
              <number>5</number>
             </property>
             <item>
-             <widget class="QLabel" name="R_Lable">
+             <widget class="QLabel" name="R_label">
               <property name="text">
                <string>R</string>
               </property>
@@ -326,7 +326,7 @@ border: 1px solid rgb(28 , 28 , 28);</string>
              <number>5</number>
             </property>
             <item>
-             <widget class="QLabel" name="G_Lable">
+             <widget class="QLabel" name="G_label">
               <property name="text">
                <string>G</string>
               </property>
@@ -383,7 +383,7 @@ border: 1px solid rgb(28 , 28 , 28);</string>
              <number>5</number>
             </property>
             <item>
-             <widget class="QLabel" name="B_Lable">
+             <widget class="QLabel" name="B_label">
               <property name="text">
                <string>B</string>
               </property>
@@ -440,7 +440,7 @@ border: 1px solid rgb(28 , 28 , 28);</string>
              <number>5</number>
             </property>
             <item>
-             <widget class="QLabel" name="A_Lable">
+             <widget class="QLabel" name="A_label">
               <property name="text">
                <string>A</string>
               </property>
@@ -675,7 +675,7 @@ border: 1px solid rgb(28 , 28 , 28);</string>
          </spacer>
         </item>
         <item>
-         <widget class="QLabel" name="T_Lable">
+         <widget class="QLabel" name="T_label">
           <property name="text">
            <string>容差</string>
           </property>
@@ -768,7 +768,7 @@ border: 1px solid rgb(28 , 28 , 28);</string>
          </spacer>
         </item>
         <item>
-         <widget class="QLabel" name="S_Lable">
+         <widget class="QLabel" name="S_label">
           <property name="text">
            <string>笔刷</string>
           </property>
@@ -1376,9 +1376,9 @@ border: 1px solid rgb(28 , 28 , 28);
  </widget>
  <customwidgets>
   <customwidget>
-   <class>QLable_File_Dragable</class>
+   <class>QLabel_File_Dragable</class>
    <extends>QLabel</extends>
-   <header>QLable_File_Dragable.h</header>
+   <header>QLabel_File_Dragable.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
