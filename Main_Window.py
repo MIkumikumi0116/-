@@ -1443,7 +1443,7 @@ class Mouse_And_Key_Events(QWidget):
 
 
 
-class MainW_indow(QMainWindow, Ui_Main_Window_UI):
+class Main_Window(QMainWindow, Ui_Main_Window_UI):
     def __init__(self):
         QMainWindow.__init__(self)
 
@@ -1571,6 +1571,6 @@ class MainW_indow(QMainWindow, Ui_Main_Window_UI):
 
 if __name__ == '__main__':
     app = QApplication(SYS_argv)
-    main_window = MainW_indow()
+    main_window = Main_Window()
     main_window.show()
     SYS_exit(app.exec_())
